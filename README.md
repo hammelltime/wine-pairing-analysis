@@ -19,8 +19,19 @@ Analysis of 34,000+ wine and food pairing combinations using SQL and Python to i
     - Found uniformity among all 5 wine types paired with BBQ food
         - 3.0 average quality ratings
         - 255 pairings, evenly split by pairing quality rating (51 pairings rated 1, 51 pairings rated 2, etc.)
+     
+## Top Average Unweighted Quality Ratings By Cuisine:
+ - Tempranillo (3.14)
+ - Cabernet Sauvignon (3.09)
+ - Syrah/Shiraz (3.09)
+ - Zinfandel (3.09)
+ - Malbec (3.09)
+ - Chardonnay (3.08)
+ - Merlot (3.07)
+ - Champagne (3.06)
+ - Sangiovese (3.05)
 
-## Top average weighted quality ratings:
+## Top Average Weighted Quality Ratings By Food Type:
   - Tempranillo (3.15)
   - Chardonnay (3.11)
   - Zinfandel (3.10)
@@ -36,9 +47,12 @@ Analysis of 34,000+ wine and food pairing combinations using SQL and Python to i
 - Rankings shifted significantly from unweighted results, with Provence Rosé dropping out of top 5, suggesting it excels in specific categories rather than across all food types
 
 ## Retail implications
-- Customers not pairing with a meal: recommend versatile wines with high weighted ratings
-  - Opportunity to move slower inventory
-- Customers pairing with a meal: see heat map for tailored suggestions
+- Customers not pairing with a meal:
+   - Opportunity to move slow inventory
+      - Recommend wines with selling point of versatility
+         - By cuisine or by food type
+- Customers pairing with a meal:
+   - See heat maps for tailored suggestions
 
 ## Files
 - `wine_analysis.ipynb` - Main analysis notebook with SQL queries and visualizations
